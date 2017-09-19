@@ -4,8 +4,8 @@ var array // array for all array functions
 //    element // to add to arrays
 
 function addElementToBeginningOfArray (array, element) {
-  var addedArray, // array output foro non-destructive operations
-      element // to add to arrays
+  var addedArray, // array output for non-destructive operations
+      element // to add to addedArray
   addedArray = (element, ...array) // solution #1
 //  addedArray = array.unshift(element) // solution #2
   return [addedArray]
