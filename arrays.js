@@ -4,8 +4,8 @@ var array // array for all array functions
 function addElementToBeginningOfArray (array, element) {
   var addedArray, // array output for non-destructive operations
       element // to add to addedArray
-  addedArray = (element, ...array) // solution #1
-  return [addedArray]
+  addedArray = [element, ...array] // solution #1
+  return addedArray
 }
 function destructivelyAddElementToBeginningOfArray (array, element) {
   array.unshift(element)
