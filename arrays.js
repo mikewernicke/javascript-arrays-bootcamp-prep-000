@@ -4,7 +4,7 @@ var array, // array for all array functions
 function addElementToBeginningOfArray (array, element) {
   var addedArray,
       element;
-  addedArray = (element, ...array) // solution #1
+//  addedArray = (element, ...array) // solution #1
 //  addedArray = array.unshift(element) // solution #2
   return addedArray
 }
