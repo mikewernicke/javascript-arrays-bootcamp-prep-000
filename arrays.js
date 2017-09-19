@@ -1,7 +1,5 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 var array // array for all array functions
-// var addedArray, // array output foro non-destructive operations
-//    element // to add to arrays
 
 function addElementToBeginningOfArray (array, element) {
   var addedArray, // array output for non-destructive operations
