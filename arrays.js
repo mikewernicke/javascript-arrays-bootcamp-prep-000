@@ -1,12 +1,12 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
-var array // array for all array functions
-var addedArray // array output foro non-destructive operations
-var element // add to arrays
+var array, // array for all array functions
+    addedArray, // array output foro non-destructive operations
+    element // to add to arrays
 
 function addElementToBeginningOfArray (array, element) {
-//  addedArray = (element, ...array) // solution #1
+  addedArray = (element, ...array) // solution #1
 //  addedArray = array.unshift(element) // solution #2
-  return addedArray
+  return [addedArray]
 }
 function destructivelyAddElementToBeginningOfArray (array, element) {
   array.unshift(element)
